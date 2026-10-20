@@ -63,7 +63,7 @@ result['predicted_category'], result['sentiment']['sentiment_label'], result['en
 ```
 
 ## 📚 Dataset
-BBC News corpus (D. Greene and P. Cunningham, "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", ICML 2006): 2,225 articles from 2004 to 2005 in five categories (business, entertainment, politics, sport, tech). This is the source of the Kaggle competition recommended in the assignment. We use the cased version with headlines because NER and POS tagging depend on capitalization.
+BBC News corpus (D. Greene and P. Cunningham, "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", ICML 2006): 2,225 articles from 2004 to 2005 in five categories (business, entertainment, politics, sport, tech). This is the source of the Kaggle competition recommended in the assignment. I used the cased version with headlines because NER and POS tagging depend on capitalization.
 
 ## ⚠️ Limitations
 * Training data is from one outlet and one period (2004 to 2005); there is no Health category, so health stories are flagged as low confidence.
